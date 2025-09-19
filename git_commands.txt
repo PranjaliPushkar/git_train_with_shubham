@@ -1,21 +1,23 @@
- ls
-   8 rm testing.py
-   9 ls
-  10 clear
-  11 git init
-  12 ls
-  14 ls -a
-  15 rm testing.py
-  16 git init
-  17 ls -Force...
-  18 Get-ChildItem -Force...
-  19 git status
-  22 git add testing.py
-  25 git rm --cached testing.py
-  26 git status
-  27 git add .
-  33 git config user.name "pranjali pushkar"
-  34 git config user.email "pranjalipushkar@gmail.com"
-  35 git commit -m "added testing files"
-  37 rm testing.py
-  38 git restore testing.py
+
+    rm testing.py
+   ls
+   clear
+   git init
+  ls -a  =Lists all files including hidden ones linux
+   ls -Force... = Lists all files including hidden ones windows
+   Get-ChildItem -Force... = Lists all files including hidden ones windows
+   git status
+   git add testing.py
+   git rm --cached testing.py
+  
+   git add .
+   git config user.name "pranjali pushkar"
+  git config user.email "pranjalipushkar@gmail.com"
+   git commit -m "added testing files"
+   rm testing.py
+  git restore testing.py
+
+  git remote add origin git@github.com:PranjaliPushkar/git_train_with_shubham.git
+  git remote -v
+  git remote set-url origin https://ghp_X9stJGYiBt@github.com/PranjaliPushkar/git_train_with_shubham.git    
+  git push -u origin master
