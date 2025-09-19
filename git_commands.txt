@@ -1,0 +1,21 @@
+ ls
+   8 rm testing.py
+   9 ls
+  10 clear
+  11 git init
+  12 ls
+  14 ls -a
+  15 rm testing.py
+  16 git init
+  17 ls -Force...
+  18 Get-ChildItem -Force...
+  19 git status
+  22 git add testing.py
+  25 git rm --cached testing.py
+  26 git status
+  27 git add .
+  33 git config user.name "pranjali pushkar"
+  34 git config user.email "pranjalipushkar@gmail.com"
+  35 git commit -m "added testing files"
+  37 rm testing.py
+  38 git restore testing.py
